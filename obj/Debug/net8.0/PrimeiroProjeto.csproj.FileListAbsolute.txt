@@ -1,0 +1,14 @@
+C:\Users\Matheus\Documents\visualstudio\PrimeiroProjeto\PrimeiroProjeto\bin\Debug\net8.0\PrimeiroProjeto.exe
+C:\Users\Matheus\Documents\visualstudio\PrimeiroProjeto\PrimeiroProjeto\bin\Debug\net8.0\PrimeiroProjeto.deps.json
+C:\Users\Matheus\Documents\visualstudio\PrimeiroProjeto\PrimeiroProjeto\bin\Debug\net8.0\PrimeiroProjeto.runtimeconfig.json
+C:\Users\Matheus\Documents\visualstudio\PrimeiroProjeto\PrimeiroProjeto\bin\Debug\net8.0\PrimeiroProjeto.dll
+C:\Users\Matheus\Documents\visualstudio\PrimeiroProjeto\PrimeiroProjeto\bin\Debug\net8.0\PrimeiroProjeto.pdb
+C:\Users\Matheus\Documents\visualstudio\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net8.0\PrimeiroProjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\Documents\visualstudio\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net8.0\PrimeiroProjeto.AssemblyInfoInputs.cache
+C:\Users\Matheus\Documents\visualstudio\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net8.0\PrimeiroProjeto.AssemblyInfo.cs
+C:\Users\Matheus\Documents\visualstudio\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net8.0\PrimeiroProjeto.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\Documents\visualstudio\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net8.0\PrimeiroProjeto.dll
+C:\Users\Matheus\Documents\visualstudio\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net8.0\refint\PrimeiroProjeto.dll
+C:\Users\Matheus\Documents\visualstudio\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net8.0\PrimeiroProjeto.pdb
+C:\Users\Matheus\Documents\visualstudio\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net8.0\PrimeiroProjeto.genruntimeconfig.cache
+C:\Users\Matheus\Documents\visualstudio\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net8.0\ref\PrimeiroProjeto.dll
