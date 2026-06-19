@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualBasic;
 using Microsoft.Win32;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Net.WebSockets;
@@ -978,8 +979,48 @@ class Program {
         Console.WriteLine(novoNome);
         //
         // Saída: C:\temp\arquivo.pdf
+
+        // Interface
+        //
+        // É um tipo que define um conjunto de operações que uma classe deve implementar
+        // Estabelece um contrato que a classe deve cumprir.
+
+        // IComparable
+        //
+        // Interface utilizada para definir uma regra de comparação natural entre objetos.
+        //
+        //Ela permite que objetos sejam ordenados automaticamente por métodos como:
+        //
+        // List.Sort()
+        // Array.Sort()
+        // OrderBy()
+        // SortedSet
+        // SortedDictionary
+        //
+        // Retorno do método CompareTo
+        //
+        // Menor que 0 O objeto atual vem antes do outro
+        // Igual a 0   Os objetos são equivalentes
+        // Maior que 0 O objeto atual vem depois do outro
     }
 }
+    // IComparable
+    public class Employee : IComparable<Employee> {
+        public string Name { get; set; }
+
+        public double Salary { get; set; }
+
+        public int CompareTo(Employee other) {
+            return Salary.CompareTo(other.Salary);
+        }
+    }
+
+    // Interface
+    public interface IShape {
+            double Area();
+            double Perimeter();
+    }
+
     // Exceção personalizada
     public class SaldoInsuficienteException : ApplicationException { // Microsoft recomenda herdar de Exception
         public SaldoInsuficienteException(string mensagem)
