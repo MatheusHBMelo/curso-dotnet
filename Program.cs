@@ -1002,8 +1002,37 @@ class Program {
         // Menor que 0 O objeto atual vem antes do outro
         // Igual a 0   Os objetos são equivalentes
         // Maior que 0 O objeto atual vem depois do outro
+
+        // Generics(< T >)
+        //
+        // permitem criar classes, métodos e interfaces que trabalham com tipos diferentes, mantendo a segurança de tipos e evitando conversões(cast).
+        //
+        // Objetivos:
+        //
+        // Reutilizar código.
+        // Evitar duplicação.
+        // Garantir segurança em tempo de compilação.
+        // Melhorar a performance, evitando boxing e unboxing.
     }
 }
+    // Classe com Generics
+    public class PrintService2<T> {
+        private T[] values = new T[10];
+
+        public void AddValue(T value) {
+            values[0] = value;
+        }
+
+        public T First() {
+            return values[0];
+        }
+    }
+
+    // Método com generic
+    public static T Max<T>(T x, T y) where T : IComparable<T> {
+        return x.CompareTo(y) > 0 ? x : y;
+    }
+
     // IComparable
     public class Employee : IComparable<Employee> {
         public string Name { get; set; }
